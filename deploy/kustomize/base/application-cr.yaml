@@ -5,7 +5,7 @@ apiVersion: liberty.websphere.ibm.com/v1
 metadata:
   name: modresortsx2
 spec:
-  replicas: 1
+  replicas: 4
   applicationImage: default-route-openshift-image-registry.apps.tasvt.cp.fyre.ibm.com/wlmod/mod:latest
   expose: true
   volumeMounts:
