@@ -6,7 +6,7 @@ metadata:
   name: modresortsx2
 spec:
   replicas: 1
-  applicationImage: quay.io/redhatworkshops/bgd:latest
+  applicationImage: default-route-openshift-image-registry.apps.o1-717894.cp.fyre.ibm.com/jc/mod:latest
   expose: true
   volumeMounts:
     - mountPath: /config/variables
