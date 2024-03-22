@@ -6,7 +6,7 @@ metadata:
   name: modresortsx2
 spec:
   replicas: 1
-  applicationImage: default-route-openshift-image-registry.apps.kgta.cp.fyre.ibm.com/jc/mod:latest
+  applicationImage: default-route-openshift-image-registry.apps.kgta.cp.fyre.ibm.com/jc/mod:5
   expose: true
   volumeMounts:
     - mountPath: /config/variables
